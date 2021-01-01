@@ -1,4 +1,4 @@
-
+from transformers import *
 import torch.nn as nn
 class RFClassifier(nn.Module):
   def __init__(self, n_classes,pre_trained):
