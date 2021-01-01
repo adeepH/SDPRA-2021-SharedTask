@@ -21,4 +21,4 @@ class RFClassifier(nn.Module):
     output = self.out1(output)
     output = self.relu(output)
     output = self.drop1(output)
-    return self.out(outpu
+    return self.out(output)
