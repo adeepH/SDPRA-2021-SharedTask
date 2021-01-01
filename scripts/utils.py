@@ -1,3 +1,4 @@
+device = 'cuda'
 import torch
 from transformers import *
 from dataset import *
